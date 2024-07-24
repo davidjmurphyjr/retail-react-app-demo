@@ -122,7 +122,7 @@ Icon.propTypes = {
     iconName: PropTypes.string.isRequired
 }
 
-export const IconDefinition = {
+export const IconPickerDefinition = {
     component: Icon,
     name: 'IconPicker',
     image: 'https://unpkg.com/css.gg@2.0.0/icons/svg/smile.svg',

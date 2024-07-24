@@ -1,11 +1,12 @@
 {
   "name": "client",
-  "hash": "52672fcc5019478fcfa3",
+  "hash": "592659df355465f6f124",
   "publicPath": "",
   "outputPath": "/Users/david.murphy/SourceCode/retail-react-app-demo/build",
   "assetsByChunkName": {
     "main": [
-      "main.js"
+      "main.js",
+      "main.6fc13502267b388159e5.hot-update.js"
     ],
     "pages-home": [
       "pages-home.js"
@@ -62,7 +63,8 @@
       "products-grid.js"
     ],
     "vendor": [
-      "vendor.js"
+      "vendor.js",
+      "vendor.6fc13502267b388159e5.hot-update.js"
     ]
   },
   "assets": [
@@ -174,6 +176,35 @@
     },
     {
       "type": "asset",
+      "name": "vendor.6fc13502267b388159e5.hot-update.js",
+      "size": 152609,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "6fc13502267b388159e5",
+        "related": {
+          "sourceMap": "vendor.6fc13502267b388159e5.hot-update.js.map"
+        }
+      },
+      "chunkNames": [
+        "vendor"
+      ],
+      "chunkIdHints": [
+        "vendor"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "vendor"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "pages-product-list.js",
       "size": 132981,
       "emitted": false,
@@ -196,6 +227,33 @@
       "filteredRelated": 1,
       "chunks": [
         "pages-product-list"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "main.6fc13502267b388159e5.hot-update.js",
+      "size": 92760,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "6fc13502267b388159e5",
+        "related": {
+          "sourceMap": "main.6fc13502267b388159e5.hot-update.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "main"
       ],
       "auxiliaryChunks": []
     },
@@ -777,6 +835,25 @@
         "_1242"
       ],
       "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "main.6fc13502267b388159e5.hot-update.json",
+      "size": 37,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "6fc13502267b388159e5"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
     }
   ],
   "namedChunkGroups": {
@@ -791,12 +868,18 @@
           "name": "vendor.js"
         },
         {
+          "name": "vendor.6fc13502267b388159e5.hot-update.js"
+        },
+        {
           "name": "main.js"
+        },
+        {
+          "name": "main.6fc13502267b388159e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 2,
+      "filteredAuxiliaryAssets": 4,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -978,6 +1061,9 @@
           "name": "vendor.js"
         },
         {
+          "name": "vendor.6fc13502267b388159e5.hot-update.js"
+        },
+        {
           "name": "vendors-node_modules_salesforce_retail-react-app_app_components_item-variant_item-attributes_-366c8a.js"
         },
         {
@@ -992,7 +1078,7 @@
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 5,
+      "filteredAuxiliaryAssets": 6,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -1151,12 +1237,15 @@
           "name": "vendor.js"
         },
         {
+          "name": "vendor.6fc13502267b388159e5.hot-update.js"
+        },
+        {
           "name": "blog-card.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 2,
+      "filteredAuxiliaryAssets": 3,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -1222,7 +1311,8 @@
     {
       "id": "main",
       "files": [
-        "main.js"
+        "main.js",
+        "main.6fc13502267b388159e5.hot-update.js"
       ]
     },
     {
@@ -1342,7 +1432,8 @@
     {
       "id": "vendor",
       "files": [
-        "vendor.js"
+        "vendor.js",
+        "vendor.6fc13502267b388159e5.hot-update.js"
       ]
     },
     {

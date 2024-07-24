@@ -3,7 +3,7 @@ import {EinsteinProductsGridDefinition} from './einstein-products-grid'
 import {ProductDetailDefinition} from './product-detail'
 import {ProductsGridDefinition} from './products-grid'
 import {AccordionDefinition} from './accordion'
-import {IconDefinition} from './icon-picker'
+import {IconPickerDefinition} from './icon-picker'
 
 // TODO: Add an explanation how this works and where to use it
 export const customComponents = [
@@ -12,5 +12,5 @@ export const customComponents = [
     ProductDetailDefinition,
     ProductsGridDefinition,
     AccordionDefinition,
-    IconDefinition
+    IconPickerDefinition
 ]
