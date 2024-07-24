@@ -13,6 +13,7 @@ import {getConfig} from '@salesforce/pwa-kit-runtime/utils/ssr-config'
 import {Skeleton} from '@salesforce/retail-react-app/app/components/shared/ui'
 import {configureRoutes} from '@salesforce/retail-react-app/app/utils/routes-utils'
 import {routes as _routes} from '@salesforce/retail-react-app/app/routes'
+import MarketingPages from './pages/marketing-pages'
 
 const fallback = <Skeleton height="75vh" width="100%" />
 
@@ -31,8 +32,22 @@ const routes = [
         path: '/my-new-route',
         component: MyNewRoute
     },
-    ..._routes
+    // Add a catchall route for marketing pages that also handles 404's
+    // Make sure your catchall route is the last route in the array
+    {
+        path: '*',
+        component: MarketingPages
+    }
 ]
+
+const overridePaths = routes.map((route) => route.path)
+
+// Insert the overridden routes before the template paths, but use our custom catchall route at the end
+routes.splice(
+    routes.length - 1,
+    0,
+    ..._routes.filter((route) => !overridePaths.includes(route.path))
+)
 
 export default () => {
     const config = getConfig()
